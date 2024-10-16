@@ -1,0 +1,49 @@
+*{
+    font-style: italic;
+}
+
+h1{
+    font-style: italic;
+    margin-top: 50px;
+    width: 50% ;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#introimg{
+ width: 200px;
+ height: auto;
+ margin-top: 50px;
+ margin-left: 200px;
+}
+
+
+a{
+    font-style: italic;
+    font-size: 20px;
+    margin-left: 40px;
+    text-decoration: none;
+    color: black;
+}
+
+nav{
+    margin-top: 40px;
+}
+
+#About{
+    width: 50%;
+}
+
+#middle{
+    display: flex;
+    flex-direction: row;
+}
+
+img{
+    width: 500px;
+    height: auto;
+}
