@@ -24,13 +24,6 @@ header{
     align-items: center;
 }
 
-#introimg{
- width: 200px;
- height: auto;
- margin-top: 50px;
- margin-left: 200px;
-}
-
 
 a{
     font-style: italic;
@@ -95,4 +88,61 @@ li{
     width: 400px;
     height: auto;
     margin: 10px;
+}
+
+@media(max-width: 600px){
+   img{
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+   } 
+
+   nav{
+    display: flex;
+    flex-direction: row;
+   }
+
+   #info{
+    width: 100%;
+   }
+
+   #codelanguage li img{
+    width: 50px;
+    height: auto;
+   }
+
+   #About{
+    width: 100%;
+    min-width: 70%;
+   }
+}
+
+@media (min-width: 2000px){
+    *{
+        font-size: 2rem;
+    }
+
+    img{
+        width: 700px;
+        height: auto;
+    }
+
+    li{
+        font-size: 1.2rem;
+    }
+
+    #codelanguage img{
+        width: 200px;
+        height: auto;
+    }
+
+    #info p{
+        width: 600px;
+        height: auto;
+        margin: 50px;
+    }
+
+    nav a{
+        font-size: 1.2rem;
+    }
 }
