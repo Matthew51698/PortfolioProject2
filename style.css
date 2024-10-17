@@ -1,11 +1,21 @@
 *{
     font-style: italic;
+    font-weight: bold;
 }
 
 h1{
     font-style: italic;
     margin-top: 50px;
     width: 50% ;
+    font-weight: bolder;
+}
+
+h2{
+    font-weight: bolder;
+}
+
+p{
+    font-size: 1.1rem;
 }
 
 header{
@@ -46,4 +56,43 @@ nav{
 img{
     width: 500px;
     height: auto;
+}
+
+ul{
+   list-style-type: square;
+}
+
+li{
+    font-weight: bold;
+}
+
+#projects{
+    margin-bottom: 50px;
+}
+
+#codelanguage{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+#codelanguage img{
+    width: 100px;
+    height: auto;
+}
+
+#codelanguage img:hover{
+    cursor: pointer;
+}
+
+#info{
+    display: flex;
+    flex-direction: row;
+}
+
+#info p{
+    width: 400px;
+    height: auto;
+    margin: 10px;
 }
